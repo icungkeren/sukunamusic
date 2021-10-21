@@ -1,9 +1,8 @@
 {
-    "name": "Veez Music Bot",
-    "logo": "https://telegra.ph/file/9dd9b20abcda2d7bb6725.png",
-    "description": "veez music allow you to stream music trought the telegram voice chat feature.",
+    "name": "Sukuna Music Bot",
+    "logo": "https://telegra.ph/file/e099d4c3c545d9fc1a4a8.jpg",
+    "description": "sukuna music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/levina-lab/veezmusic",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -27,22 +26,22 @@
         "DATABASE_URL": {
             "description": "fill with the mongodb url you get from cloud.mongodb.com",
             "required": true,
-            "value": ""
+            "value": "mongodb+srv://EXmusic:bdg12345.@cluster0.yz5sk.mongodb.net/EXmusic?retryWrites=true&w=majority"
         },
         "LOG_CHANNEL": {
             "description": "create a private channel and get the channel id, add your bot as admin to the channel too",
             "required": true,
-            "value": ""
+            "value": "-1001714434934"
         },
         "BOT_USERNAME": {
             "description": "fill with your bot username without @",
             "required": true,
-            "value": "veezmusicbot"
+            "value": "sukunamusicbot"
         },
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username without @",
             "required": true,
-            "value": "veezasisstant"
+            "value": "sukunanihhboss"
         },
         "BG_IMAGE": {
             "description": "fill with your costum background image link",
@@ -52,12 +51,12 @@
         "OWNER_NAME": {
             "description": "fill with your username without @",
             "required": false,
-            "value": "dlwrml"
+            "value": "bgnapiibgnapii"
         },
         "ALIVE_NAME": {
             "description": "fill with the nickname of your telegram account",
             "required": false,
-            "value": "Levina"
+            "value": "Sukuna"
         },
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
@@ -79,12 +78,12 @@
         "UPDATES_CHANNEL": {
             "description": "if you have channel fill the channel username here without @",
             "required": false,
-            "value": "levinachannel"
+            "value": "kucaysupportch"
         },
         "GROUP_SUPPORT": {
             "description": "if you have group fill the group username here without @",
             "required": false,
-            "value": "VeezSupportGroup"
+            "value": "kucaygcsupport"
         }
     },
     "buildpacks": [
