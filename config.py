@@ -42,4 +42,7 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 U_BRANCH = "main"
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
+UPSTREAM_REPO = os.environ.get(
+    "UPSTREAM_REPO", "https://github.com/levina-lab/VeezMusic"
+)
 HEROKU_URL = fetch_heroku_git_url(HEROKU_API_KEY, HEROKU_APP_NAME)
